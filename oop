@@ -1,0 +1,25 @@
+class Person:
+
+    def __init__(self):
+        self.name = ""
+        self.age = ""
+
+    def __del__(self):
+        print("The very last thing that happened", self.name)
+
+    def setName(self, name):
+        self.name = name
+
+    def setAge(self):
+        self.age = age
+
+
+bob = Person()
+bob.setName("Bob")
+bob.setAge(45)
+print(bob.name)
+
+peter = Person()
+peter.setName("Peter")
+print(peter.name)
+
